@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MSC Project</title>
+</head>
+<body>
+    <h2>Bangla Image Caption</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+         {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Check Caption of this Image</button>
+      </form>
+      <br><br>
+      {% if img_obj %}
+        <h1>Image : {{img_obj.title}}</h1>
+        <h3 style="color:red;">{{caption}}</h3>
+        <img src="{{ img_obj.image.url}}" alt="connect" style="max-height:250px">
+      {% endif %}
+</body>
+</html>

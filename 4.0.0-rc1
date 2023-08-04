@@ -1,0 +1,16 @@
+Collecting googletran
+  Downloading GoogleTran-1.0.zip (2.1 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: googletran
+  Building wheel for googletran (pyproject.toml): started
+  Building wheel for googletran (pyproject.toml): finished with status 'done'
+  Created wheel for googletran: filename=GoogleTran-1.0-py3-none-any.whl size=2440 sha256=1b974781fc559bc7ff270ca159e08df33a0e6b6e7e92800914ac9ab46a1a6925
+  Stored in directory: c:\users\habib\appdata\local\pip\cache\wheels\d8\03\f5\f259c5d50fa52d5061886f55164db0b9405832ee172e8b9c9b
+Successfully built googletran
+Installing collected packages: googletran
+Successfully installed googletran-1.0
